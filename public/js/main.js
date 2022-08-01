@@ -10,7 +10,7 @@ async function apiRequest() {
 
     console.log(data);
     document.querySelector("h2").innerText = data.name;
-    document.querySelector("h3").innerText = data.types;
+    document.querySelector("h3").innerText = data.type;
     document.querySelector("h4").innerText = data.description;
   } catch (error) {
     console.log(error);
