@@ -9,7 +9,7 @@ app.use(cors());
 let cards = {
   "dark magician": {
     name: "Dark Magician",
-    cardtype: "Monster",
+    type: "Monster",
     property: "Spellcaster/Normal",
     attribute: "DARK",
     level: 7,
@@ -19,7 +19,7 @@ let cards = {
   },
   "blue-eyes white dragon": {
     name: "Blue-Eyes White Dragon",
-    cardtype: "Monster",
+    type: "Monster",
     property: "Dragon/Normal",
     attribute: "LIGHT",
     level: 8,
@@ -30,7 +30,7 @@ let cards = {
   },
   raigeki: {
     name: "Raigeki",
-    cardtype: "Spell",
+    type: "Spell",
     property: "Normal",
     attribute: "THUNDER",
     level: null,
@@ -40,7 +40,7 @@ let cards = {
   },
   unknown: {
     name: "Unknown",
-    cardtype: "Unknown",
+    type: "Unknown",
     property: "Unknown",
     attribute: "Unknown",
     level: "Unknown",
