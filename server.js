@@ -59,5 +59,6 @@ app.get("/api/:cardName", (request, response) => {
 });
 
 app.listen(process.env.PORT || PORT, () => {
+  // added process.env.PORT so that Heroku can use their PORT
   console.log(`Server running on port ${PORT}`);
 });
